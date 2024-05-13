@@ -25,7 +25,7 @@ export default function ContactForm({ setMessageSent }: ContactFormProps) {
     // Installed npm install --save-dev @types/grecaptcha
     const captchaResponse = grecaptcha.getResponse();
 
-    fetch("http://localhost:8000/captcha-verify", {
+    fetch("https://portfolio-v2-server-omega.vercel.app/captcha-verify", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

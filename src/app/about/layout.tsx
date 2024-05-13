@@ -6,12 +6,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About - Alexander Heras",
     description: "Discover more about my journey into web development.",
-    images: [
-      {
-        url: "https://www.alexanderheras.com/public/og-image.jpg",
-        alt: "Open Graph banner image for Alexander Heras portfolio.",
-      },
-    ],
   },
 };
 

@@ -77,15 +77,15 @@ export default function ContactForm({ setMessageSent }: ContactFormProps) {
       transition={{ duration: 2 }}
       ref={form}
       onSubmit={sendEmail}
-      className=" flex flex-col gap-4 mx-auto w-[100%] text-white p-4 lg:p-[2rem] border-[1px] rounded-[5px] border-[#202020] bg-black"
+      className=" flex flex-col gap-4 mx-auto w-[100%] text-white px-4 py-4 lg:p-[2rem] border-[1px] rounded-[5px] border-[#202020] bg-black"
     >
       <div className="flex flex-col items-start gap-y-4 w-full">
         <div className="w-full flex flex-col ">
-          <label className="self-start text-[#01FFB9] text-base">
+          <label className="self-start text-[#01FFB9] text-[0.9rem]">
             <Reveal delay={0.5}>Name</Reveal>
           </label>
           <input
-            className="bg-[#111111] border-[1px] rounded-[5px] border-[#202020] p-2"
+            className="bg-[#111111] border-[1px] text-[1.01rem] rounded-[5px] border-[#202020] p-1"
             type="text"
             name="user_name"
             id="form-name"
@@ -94,11 +94,11 @@ export default function ContactForm({ setMessageSent }: ContactFormProps) {
         </div>
 
         <div className="w-full flex flex-col">
-          <label className="self-start text-[#01FFB9] text-base">
+          <label className="self-start text-[#01FFB9] text-[0.9rem]">
             <Reveal delay={0.5}>Email</Reveal>
           </label>
           <input
-            className="bg-[#111111] border-[1px] rounded-[5px] border-[#202020] p-2"
+            className="bg-[#111111] border-[1px] text-[1.01rem] rounded-[5px] border-[#202020] p-1"
             type="email"
             name="user_email"
             required
@@ -106,12 +106,12 @@ export default function ContactForm({ setMessageSent }: ContactFormProps) {
         </div>
 
         <div className="w-full flex flex-col">
-          <label className="self-start text-[#9d9d9d] text-base">
+          <label className="self-start text-[#9d9d9d] text-[0.9rem]">
             <Reveal delay={0.5}>Message:</Reveal>
           </label>
           <textarea
             name="message"
-            className="bg-[#111111] border-[1px] rounded-[5px] border-[#202020] p-2"
+            className="bg-[#111111] border-[1px] text-[1.01rem] rounded-[5px] border-[#202020] p-1"
             rows={6}
             required
           />

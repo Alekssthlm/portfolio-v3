@@ -7,7 +7,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import GlassBlobs from "../_components/GlassBlobs/GlassBlobs";
 
 export default function Contact() {
-  const [messageSent, setMessageSent] = useState(false);
+  const [messageSent, setMessageSent] = useState(true);
   return (
     <section className="flex flex-col pt-[6rem]  lg:pt-[8rem] lg:flex-row justify-center items-center lg:gap-[6rem] px-4 max-w-[60rem] mx-auto z-40">
       <GlassBlobs />
@@ -41,11 +41,11 @@ export default function Contact() {
         {messageSent && (
           <>
             <div
-              className="fixed z-10 top-0 left-0 h-full w-full bg-[#000000b3] flex justify-center items-center"
+              className="fixed z-40 top-0 left-0 h-full w-full bg-[#000000db] flex justify-center items-center"
               onClick={() => setMessageSent(false)}
             ></div>
-            <div className="text-white border-[1px] rounded-[5px] border-[#202020] p-10 flex text-[1rem] flex-col gap-4 fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20">
-              <p className="">Your message has been sent.</p>
+            <div className="text-white border-[1px] w-[90%] max-w-[40rem] rounded-[5px] border-[#202020] p-10 flex text-[1rem] flex-col gap-8 fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-50">
+              <p className="z-40 text-center">Your message has been sent.</p>
               <button
                 className="text-[0.9rem] border-[2px] border-[#01FFB9] hover:text-black hover:bg-[#01FFB9] px-5 py-1 hover:scale-[1.05] transition-all ease-in-out duration-300 self-center"
                 onClick={() => setMessageSent(false)}

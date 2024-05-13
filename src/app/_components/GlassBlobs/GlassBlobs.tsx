@@ -9,11 +9,11 @@ export default function GlassBlobs() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 4, delay: 1 }}
-      className="fixed md:block bottom-[-20%] left-[-40%] z-1 w-full h-full"
+      className="fixed md:block top-[200px] left-[-40%] z-1 w-full "
     >
       <Spline
         scene="https://prod.spline.design/9Baf9Kt2f9hm2c3d/scene.splinecode"
-        className="scale-[2] "
+        className="scale-[1.5] "
       />
     </motion.div>
   );

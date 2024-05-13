@@ -21,7 +21,7 @@ export default function Header() {
           <a href="/">
             <div className="relative border-solid border-black text-[#fff]">
               <span className="font-[900] text-[1.2rem] lg:text-[2rem] select-none">
-                alexander heras
+                ah
                 <motion.span
                   className="text-[#01FFB9] absolute top-0"
                   animate={{

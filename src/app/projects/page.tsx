@@ -10,7 +10,7 @@ import GlassBlobs from "../_components/GlassBlobs/GlassBlobs";
 export default function Projects() {
   return (
     <section className="flex flex-col pt-[6rem] pb-10 lg:pt-[8rem] lg:flex-row justify-center items-center lg:gap-[6rem] px-4 max-w-[60rem] mx-auto z-40">
-      <div className="glass-background fixed top-0 h-[120lvw] w-lvw z-10"></div>
+      <div className="glass-background fixed top-0 h-[120lvh] w-lvw z-10"></div>
       <GlassBlobs />
       <div className="w-[100%] max-w-5xl grid grid-cols-1 gap-4 z-40">
         <Reveal delay={0.5}>
@@ -45,7 +45,7 @@ function ProjectCard({ project }: ProjectCardProps) {
 
   return (
     <motion.a
-      className="flex flex-col md:flex-row bg-black p-4 cursor-pointer gap-4 z-40 border-[1px] rounded-[5px] border-[#202020] relative"
+      className="flex flex-col md:flex-row bg-[#111111] p-4 cursor-pointer gap-4 z-40 border-[1px] rounded-[5px] border-[#202020] relative"
       href={`projects/${project.id}`}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -58,7 +58,7 @@ function ProjectCard({ project }: ProjectCardProps) {
       }
     >
       <div className="flex-1 order-2 md:order-1 flex flex-col items-center md:items-start pb-4">
-        <h1 className="text-[#01FFB9] text-[1.8rem] lg:text-[1.5rem] font-[900] text-wrap">
+        <h1 className="text-[#01FFB9] text-[1.2rem] font-[900] lg:text-[1.5rem] text-wrap">
           <WaveEffect>{project.name}</WaveEffect>
         </h1>
         <Reveal delay={0.5}>

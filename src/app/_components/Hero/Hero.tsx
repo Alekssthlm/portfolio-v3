@@ -25,21 +25,18 @@ export default function Hero() {
           </h2>
         </Reveal>
 
-        <motion.p
-          className="text-[0.9rem] lg:text-base text-[#fff] max-w-[35rem] mb-16 z-20 relative"
-          initial={{ opacity: 0, y: 75 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0 }}
-        >
-          &quot;I&apos;m passionate about web development and ready to embark on
-          my professional journey. I&apos;m currently enrolled in studies at
-          Hyper Island, learning how to program by crafting web apps using
-          industry best practices. I invite you to{" "}
-          <a href="/projects" className="text-[#01FFB9] underline">
-            explore my work
-          </a>{" "}
-          and let&apos;s connect!&quot;
-        </motion.p>
+        <Reveal delay={0.7}>
+          <p className="text-[0.9rem] lg:text-base text-[#fff] max-w-[35rem] mb-16 z-20 relative">
+            &quot;I&apos;m passionate about web development and ready to embark
+            on my professional journey. I&apos;m currently enrolled in studies
+            at Hyper Island, learning how to program by crafting web apps using
+            industry best practices. I invite you to{" "}
+            <a href="/projects" className="text-[#01FFB9] underline">
+              explore my work
+            </a>{" "}
+            and let&apos;s connect!&quot;
+          </p>
+        </Reveal>
 
         <motion.div
           initial={{ y: 75, opacity: 0 }}

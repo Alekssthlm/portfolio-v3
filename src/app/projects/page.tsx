@@ -10,7 +10,7 @@ import GlassBlobs from "../_components/GlassBlobs/GlassBlobs";
 export default function Projects() {
   return (
     <section className="flex flex-col pt-[6rem] pb-10 lg:pt-[8rem] lg:flex-row justify-center items-center lg:gap-[6rem] px-4 max-w-[60rem] mx-auto z-40">
-      <div className="glass-background fixed top-0 left-0 right-0 bottom-0 z-10"></div>
+      <div className="glass-background fixed top-0 h-[120lvw] w-lvw z-10"></div>
       <GlassBlobs />
       <div className="w-[100%] max-w-5xl grid grid-cols-1 gap-4 z-40">
         <Reveal delay={0.5}>

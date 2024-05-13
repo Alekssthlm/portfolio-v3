@@ -26,7 +26,7 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={0.7}>
-          <p className="text-[0.9rem] lg:text-base text-[#fff] max-w-[35rem] mb-16 z-20 relative">
+          <p className="text-[0.9rem] lg:text-base text-[#fff] max-w-[35rem] mb-[2rem] z-20 relative">
             &quot;I&apos;m passionate about web development and ready to embark
             on my professional journey. I&apos;m currently enrolled in studies
             at Hyper Island, learning how to program by crafting web apps using
@@ -42,7 +42,7 @@ export default function Hero() {
           initial={{ y: 75, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 1 }}
-          className="self-center lg:self-start"
+          className="self-start"
         >
           <div className="flex justify-end items-center gap-4">
             <motion.a

@@ -13,7 +13,7 @@ export default function Contact() {
       <GlassBlobs />
       <div className="glass-background fixed top-0 h-lvh w-lvw z-10"></div>
       <div className="w-[100%] max-w-5xl grid grid-cols-1 gap-4 z-40">
-        <Reveal delay={0}>
+        <Reveal delay={0.5}>
           <div className="flex justify-end items-center gap-4">
             <motion.a
               href="https://www.linkedin.com/in/alexander-heras/"
@@ -33,7 +33,7 @@ export default function Contact() {
             >
               <FaGithub />
             </motion.a>
-            <h1 className="text-[#9d9d9d] text-[1.5rem] lg:text-[1.5rem]">
+            <h1 className="text-[#9d9d9d] text-[1.2rem] lg:text-[1.5rem]">
               Contact<span className="text-[#01FFB9]">{"."}</span>
             </h1>
           </div>

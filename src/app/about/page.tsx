@@ -51,8 +51,8 @@ export default function About() {
                 >
                   <FaGithub />
                 </motion.a>
-                <h1 className="text-[#9d9d9d] text-[1.5rem] lg:text-[1.5rem]">
-                  About me<span className="text-[#01FFB9]">{"."}</span>
+                <h1 className="text-[#9d9d9d] text-[1.2rem] lg:text-[1.5rem]">
+                  About<span className="text-[#01FFB9]">{"."}</span>
                 </h1>
               </div>
             </motion.div>

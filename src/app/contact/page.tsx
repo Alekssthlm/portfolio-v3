@@ -7,7 +7,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import GlassBlobs from "../_components/GlassBlobs/GlassBlobs";
 
 export default function Contact() {
-  const [messageSent, setMessageSent] = useState(true);
+  const [messageSent, setMessageSent] = useState(false);
   return (
     <section className="flex flex-col pt-[6rem]  lg:pt-[8rem] lg:flex-row justify-center items-center lg:gap-[6rem] px-4 max-w-[60rem] mx-auto z-40">
       <GlassBlobs />

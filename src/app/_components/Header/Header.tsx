@@ -114,7 +114,7 @@ export default function Header() {
                   <span className="text-[#01FFB9] text-[1rem]">
                     <GoDotFill />
                   </span>{" "}
-                  About me
+                  About
                 </Link>
                 <Link
                   href="/contact"

@@ -77,7 +77,7 @@ function ProjectCard({ project }: ProjectCardProps) {
       }
     >
       <div className="flex-1 order-2 md:order-1 flex flex-col items-center md:items-start pb-4">
-        <h1 className="text-[#01FFB9] text-[1.2rem] font-[900] lg:text-[1.5rem] text-wrap">
+        <h1 className="text-[#01FFB9] text-[1.1rem] font-[900] lg:text-[1.5rem] text-wrap">
           <WaveEffect>{project.name}</WaveEffect>
         </h1>
         <Reveal delay={0.5}>

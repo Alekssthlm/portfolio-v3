@@ -13,7 +13,7 @@ export default function GlassBlobs() {
     >
       <Spline
         scene="https://prod.spline.design/9Baf9Kt2f9hm2c3d/scene.splinecode"
-        className="scale-[2] "
+        className="scale-[4] lg:scale-[2]"
       />
     </motion.div>
   );

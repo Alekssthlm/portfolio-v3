@@ -10,7 +10,7 @@ export const metadata: Metadata = {
       "Explore a selection of the projects that I've worked on individually or as part of a team.",
     images: [
       {
-        url: "../public/og-image.jpg",
+        url: "https://www.alexanderheras.com/public/og-image.jpg",
         alt: "Open Graph banner image for Alexander Heras portfolio.",
       },
     ],

@@ -38,7 +38,7 @@ export default function SelectedProject({ params }: PageProps) {
         >
           <Spline
             scene="https://prod.spline.design/UWKTftQGJ5SiWN3U/scene.splinecode"
-            className="scale-[2]"
+            className="scale-[4] lg:scale-[2]"
           />
         </motion.div>
       )}

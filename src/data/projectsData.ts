@@ -58,7 +58,7 @@ export const projectsData = [
     url: "https://sneaky-snake-client.vercel.app/",
     preview: "Snake game with a twist",
     learnings:
-      "Own take on a previously built group project where we built a snake game, but with a twist - a random joke when the game loads. The project was built with vanilla JavaScript, HTML and CSS, and it was a great introduction to the concept of game loops and event listeners.\n I learned how to think effectively and follow the javascript logic to build the game. I also learned how to use CSS to style the game and make it look good. Overall, it was a fun project",
+      "Own take on a previously built group project where we built a snake game, but with a twist - a random joke when the game loads. The project was built with vanilla JavaScript, HTML and CSS, and it was a great introduction to the concept of game loops and event listeners.\n I learned how to think effectively and follow the javascript logic to build the game. I also learned how to use CSS to style the game and make it look good. Overall, it was a fun project!",
     badges: ["Javascript", "HTML", "CSS", "Node.js", "Express"],
   },
   {

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description: "Discover more about my journey into web development.",
     images: [
       {
-        url: "../public/og-image.jpg",
+        url: "https://www.alexanderheras.com/public/og-image.jpg",
         alt: "Open Graph banner image for Alexander Heras portfolio.",
       },
     ],

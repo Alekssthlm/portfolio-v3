@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
+import { GoDotFill } from "react-icons/go";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -70,7 +71,7 @@ export default function Header() {
               style={{ borderRadius: "80% 0% 0% 80% / 50% 0% 0% 50% " }}
             ></div>
 
-            <div className=" w-lvw flex flex-col h-full py-4 px-8 gap-4">
+            <div className="w-lvw flex flex-col h-full py-4 px-8 gap-4">
               <div className="flex justify-end">
                 <button
                   className=" text-white"
@@ -84,33 +85,45 @@ export default function Header() {
                 </button>
               </div>
 
-              <div className="flex flex-col items-start justify-center flex-1 gap-8 mx-auto">
+              <div className="flex flex-col items-start justify-center flex-1 gap-4 mx-auto">
                 <Link
                   href="/"
-                  className="block text-[#9d9d9d] font-[900] rounded-lg px-3 py-2 text-[2rem] leading-7 hover:scale-[1.5] hover:text-white transition-all ease-in-out duration-300"
+                  className=" text-[#9d9d9d] flex items-center gap-2 rounded-lg px-3 py-2 text-[1.7rem] hover:scale-[1.5] hover:text-white transition-all ease-in-out duration-300"
                   onClick={() => setMobileMenuOpen(false)}
                 >
+                  <span className="text-[#01FFB9] text-[1rem]">
+                    <GoDotFill />
+                  </span>{" "}
                   Home
                 </Link>
                 <Link
                   href="/projects"
-                  className="block text-[#9d9d9d] font-[900] rounded-lg px-3 py-2 text-[2rem] leading-7 hover:scale-[1.5] hover:text-white transition-all ease-in-out duration-300"
+                  className=" text-[#9d9d9d] flex items-center gap-2 rounded-lg px-3 py-2 text-[1.7rem] hover:scale-[1.5] hover:text-white transition-all ease-in-out duration-300"
                   onClick={() => setMobileMenuOpen(false)}
                 >
+                  <span className="text-[#01FFB9] text-[1rem]">
+                    <GoDotFill />
+                  </span>{" "}
                   Projects
                 </Link>
                 <Link
                   href="/about"
-                  className="block text-[#9d9d9d] font-[900] rounded-lg px-3 py-2 text-[2rem] leading-7 hover:scale-[1.5] hover:text-white transition-all ease-in-out duration-300"
+                  className=" text-[#9d9d9d] flex items-center gap-2 rounded-lg px-3 py-2 text-[1.7rem] hover:scale-[1.5] hover:text-white transition-all ease-in-out duration-300"
                   onClick={() => setMobileMenuOpen(false)}
                 >
+                  <span className="text-[#01FFB9] text-[1rem]">
+                    <GoDotFill />
+                  </span>{" "}
                   About me
                 </Link>
                 <Link
                   href="/contact"
-                  className="block text-[#9d9d9d] font-[900] rounded-lg px-3 py-2 text-[2rem] leading-7 hover:scale-[1.5] hover:text-white transition-all ease-in-out duration-300"
+                  className=" text-[#9d9d9d] flex items-center gap-2 rounded-lg px-3 py-2 text-[1.7rem] hover:scale-[1.5] hover:text-white transition-all ease-in-out duration-300"
                   onClick={() => setMobileMenuOpen(false)}
                 >
+                  <span className="text-[#01FFB9] text-[1rem]">
+                    <GoDotFill />
+                  </span>{" "}
                   Contact
                 </Link>
               </div>

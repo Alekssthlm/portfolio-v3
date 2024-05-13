@@ -34,7 +34,7 @@ export default function SelectedProject({ params }: PageProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 6 }}
-          className="fixed md:block bottom-0 left-[-50%] z-1 w-full h-full"
+          className="fixed md:block top-[200px] left-[-40%] z-1 w-full"
         >
           <Spline
             scene="https://prod.spline.design/UWKTftQGJ5SiWN3U/scene.splinecode"
@@ -42,7 +42,7 @@ export default function SelectedProject({ params }: PageProps) {
           />
         </motion.div>
       )}
-      <div className="glass-background fixed h-lvh w-lvw z-10"></div>
+      <div className="glass-background fixed top-0 h-[120lvh] w-lvw z-10"></div>
       <article className="h-full w-full mx-auto z-50 pt-[6rem] lg:pt-40 px-3 lg:px-0">
         <div className="text-white max-w-[70rem] mx-auto">
           {/* GRID */}

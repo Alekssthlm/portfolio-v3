@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import {
   FaHtml5,
   FaCss3Alt,
@@ -6,19 +6,21 @@ import {
   FaBootstrap,
   FaNodeJs,
   FaGithub,
-} from "react-icons/fa";
+} from "react-icons/fa"
 import {
   SiJavascript,
   SiTypescript,
   SiNextdotjs,
   SiSanity,
   SiSwagger,
-} from "react-icons/si";
-import { LuRotate3D } from "react-icons/lu";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { TbTools } from "react-icons/tb";
-import StackElement from "./StackElement";
+  SiThreedotjs,
+  SiGreensock,
+} from "react-icons/si"
+import { LuRotate3D } from "react-icons/lu"
+import { RiTailwindCssFill } from "react-icons/ri"
+import { BiLogoPostgresql } from "react-icons/bi"
+import { TbTools } from "react-icons/tb"
+import StackElement from "./StackElement"
 
 export default function Stack() {
   return (
@@ -82,6 +84,14 @@ export default function Stack() {
       <StackElement iconHex="#f0db4f" title="spline 3d">
         <LuRotate3D />
       </StackElement>
+
+      <StackElement iconHex="#f0db4f" title="R3F">
+        <SiThreedotjs />
+      </StackElement>
+
+      <StackElement iconHex="#04e347" title="gsap">
+        <SiGreensock />
+      </StackElement>
     </div>
-  );
+  )
 }
